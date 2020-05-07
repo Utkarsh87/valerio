@@ -1,0 +1,36 @@
+LOCATION,ADDRESS,OWNER COMPANY,SERVICE PROVIDER,NUMBER OF STATIONS,CONNECTOR,SATELLITE ADDRESS,LATITUDE,LONGITUDE
+DELHI,"Chanakyapuri, New Delhi, Delhi 110021",NDMC,Delta Electronics India,1.0,Type-2,"28°35'08.2""N 77°11'26.9""E",28.585611,77.19080600000001
+DELHI,"NDMC parking, opposite HDFC bank, Block M, Connaught Place, New Delhi, Delhi 110001",NDMC,Delta Electronics India,2.0,Type-2,"28°37'58.1""N 77°13'22.8""E",28.632806,77.223
+DELHI,"Palika Kendra Parking, opp Jantar mantar, Sansad Marg, Police Colony, Connaught Place, New Delhi, Delhi 110001",NDMC,Delta Electronics India,1.0,Type-2,"28°37'38.3""N 77°12'59.7""E",28.627309,77.216573
+DELHI,"Janpath, Connaught Place, New Delhi, Delhi 110001",NDMC,Delta Electronics India,1.0,Type-2,"28°37'17.7""N 77°13'05.7""E",28.621592,77.218239
+DELHI,"Plaza Mall, Block H, Connaught Place, New Delhi, Delhi 110001",NDMC,Delta Electronics India,1.0,Type-2,"28°38'08.6""N 77°13'10.8""E",28.63573,77.219663
+DELHI,"Second Ave, Block B 22, Lodi Colony, New Delhi, Delhi 110003",EESL India,Delta Electronics India,1.0,Type-2,"28°34'55.6""N 77°13'14.8""E",28.582105,77.220783
+DELHI,"Lodhi Gardens,Lodhi Estate , Delhi 110003",NDMC,Delta Electronics India,1.0,Type-2,"28°35'20.5""N 77°13'03.4""E",28.589039,77.217607
+DELHI,"Radial Road Number 3, Block G, Connaught Place, New Delhi, Delhi 110001",EESL India,Delta Electronics India,1.0,Type-2,"28°38'02.3""N 77°13'03.7""E",28.633958,77.217698
+DELHI,"Near Ferns and Petals, Near BPCL Petrol Pump, Block D, RR5, Connaught Place",EESL India,Delta Electronics India,1.0,Type-2,"28°38'03.7""N 77°13'14.1""E",28.634346,77.220582
+DELHI,"Near Woodland Showroom, Block B Connaught Place, Delhi 110001",EESL India,Delta Electronics India,1.0,Type-2,"28°38'00.5""N 77°13'14.7""E",28.633483,77.220744
+DELHI,"Janpath Guest House, Connaught Place, Delhi 110001",NDMC,Delta Electronics India,1.0,Type-2,"28°37'31.6""N 77°12'53.2""E",28.625449,77.214773
+DELHI,"NDMC parking, Akashvani Bhawan, Sansad Marg Area,Delhi 110001",EESL India,Delta Electronics India,1.0,Type-2,"28°37'20.7""N 77°12'41.1""E",28.622409,77.211425
+DELHI,"Outside Chemsford Club, Opposite CSIR building, Rafi Marg, Delhi 110001",,Delta Electronics India,2.0,Type-2,"28°37'04.2""N 77°12'46.8""E",28.617828,77.212991
+DELHI,"Firoz Shah Road, Pataudi House, New Delhi 110001",NDMC,Delta Electronics India,1.0,Type-2,"28°37'15.0""N 77°13'16.8""E",28.620824,77.221331
+DELHI,"NDMC Charging Station, Vidyut Bhawan, Dr. APJ Abdul Kalam Road, Janpath Lane, New Delhi 110001",NDMC,Delta Electronics India,2.0,"1- Wall(BS1363),1-Type 2","28°36'13.9""N 77°13'11.2""E",28.603873,77.219776
+DELHI,"EESL Charging Station Prithviraj Market, Rabindra Marg",EESL India,Delta Electronics India,1.0,Type-2,"28°36'02.1""N 77°13'29.3""E",28.60057,77.22480300000001
+DELHI,"60, Khan Market, Rabindra Nagar, New Delhi 110003",NDMC,Delta Electronics India,1.0,Type-2,"28°36'00.3""N 77°13'37.1""E",28.600089,77.226972
+DELHI,"Market 13/7, Jor Bagh, New Delhi 110003",NDMC,Delta Electronics India,1.0,Type-2,"28°35'18.4""N 77°13'03.7""E",28.588431,77.21768
+DELHI,"Near Dori Pharmacy, Khanna Market Road, Aliganj, Lodi Colony, New Delhi 110003",NDMC,Delta Electronics India,1.0,Type-2,"28°34'50.3""N 77°13'15.5""E",28.580631,77.220967
+DELHI,"Palika Maternity Hospital, Block 11, Lodi Colony, New Delhi-110003",EESL India,Delta Electronics India,1.0,Type-2,"28°35'00.7""N 77°13'19.1""E",28.583513,77.22195699999999
+DELHI,"NDMC opp Goel Opticals, Khanna Market Road, Aliganj, Block 23, Lodi Colony, New Delhi- 110003",NDMC,Delta Electronics India,1.0,Type-2,"28°34'50.3""N 77°13'15.4""E",28.580631,77.220946
+DELHI,"F 32/2, Okhla Industrial Estate - Phase 2, New Delhi - 110020",plugin ,,3.0,Type-2,"28°32'15.5""N 77°16'14.8""E",28.53764,77.27077
+DELHI,"NTPC Scope Complex, Gate 16,Jawaharlal Nehru Stadium Marg, CGO Complex, Pragati Vihar, New Delhi, Delhi 110003, India",NDMC,Delta Electronics India,1.0,Type-2,"28°35'12.5""N 77°14'18.4""E",28.5868,77.238446
+DELHI,"Bses Rajdhani Power Limited, Bses House, Nehru Place, New Delhi, Delhi 110019, India",Exicom Power Solutions,,2.0,Type-2,"28°32'59.2""N 77°15'17.1""E",28.549775,77.254738
+DELHI,"Bijwasan Charging Point,Amrit Farm, Old, Bijwasan - Palam Vihar Rd, Bijwasan, New Delhi, Delhi 110061",,,1.0,J 1772,"28°31'29.8""N 77°02'40.6""E",28.524933,77.044606
+Gurugram,"814-816, Udyog Vihar Phase V, Udyog Vihar, Phase V, Sector 19, Gurugram, Haryana 122008, India",Independent,,2.0,J-1772 Connector,"28°30'06.3""N 77°05'12.8""E",28.501744,77.086896
+DELHI,"Braham Garden, behind FunNFood Village, Kapashera, New Delhi-37",Independent,,5.0,J 1772,"28°31'25.8""N 77°05'00.7""E",28.523841,77.083517
+DELHI,"Charge & Drive New Moti Bagh, New Delhi-110023",Independent,,1.0,Type-2,"28°34'43.4""N 77°11'00.4""E",28.578729,77.18345
+DELHI,"Nice- DC Power packs, Z-47 DSIDC Complex Mangol Puri, Near- Outer Ring Road, mangol puri, Delhi 110083",NISE Tech Solutions,,1.0,Type-2,"28°41'13.5""N 77°05'32.6""E",28.687078,77.092396
+DELHI,"EV plugin Charge, 39, Second Floor, Shahpur Jat, Delhi - 110049, Next to Govt. School",EV Plugin Charge,Delta Electronics India,4.0,Type-2,"28°33'01.8""N 77°12'50.1""E",28.550502,77.21392800000001
+DELHI,"1002, Tower B, Sas Towers, Medicity, Sector 38, Gurugram, Gurgaon Sector 38, Gurgaon - 122001",Nn4 Energy,,1.0,Type-2,"28°26'29.3""N 77°02'22.1""E",28.441466,77.039473
+DELHI,"630, Nathu Colony, Delhi - 110093, Shahdara",Ok Play electric Showroom,,2.0,Type-2,"28°41'30.6""N 77°17'56.6""E",28.69183,77.29904499999999
+DELHI,"Lalit Agency,Plot No. 550 Gali No D-18 Chhattarpur Pahari 100 Futa Road new Delhi",Plugin India,,1.0,J 1772,"28°38'05.4""N 77°05'01.3""E",28.634828,77.083685
+Gurugram,"DLF Cyber City, DLF Cyber City, Gurgaon - 122002, Phase II",Zevpoint E mobility pvt ltd,,,,"28°29'40.4""N 77°05'13.0""E",28.494546,77.086931
+DELHI,"Rohini Community Charging Station,B-5/30, 2nd floor, sector 17, Rohini, Delhi-89",Plugin India,,2.0,j1772,"28°44'34.4""N 77°07'10.6""E",28.7429,77.1196
