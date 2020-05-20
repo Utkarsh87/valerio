@@ -1,0 +1,19 @@
+﻿VEHICLE NAME,VEHICLE TYPE,PRICE (IN LAKHS),TRANSMISSION,SEATING CAPACITY,DRIVING RANGE (IN KM),BATTERY TYPE,CHARGING DURATION (AC),CHARGING DURATION (DC),BATTERY CAPACITY,MOTOR TYPE,MOTOR POWER (KW),TORQUE (Nm)
+Hyundai Kona Electric SUV,Cars,23.86,Automatic,5,452,Lithium-ion ,6hrs 10min,50V:57min for 80%,39.2,Permanent Magnetic Synchronous Motor(PMSM),100.28,394.27
+Tata Nexon EV,Cars,13.99,Automatic,5,312,Lithium-ion ,15A:10-90%:8.5 hrs,0-80%:60 min,30.2,Permanent Magnetic Synchronous Motor(PMSM),94.8793,245
+MG ZS EV,Cars,20.88,Automatic,5,340,Lithium-ion ,6.6: 8 hrs,"50,150V:20-80%:40 min",44.2,Permanent Magnetic Synchronous Motor(PMSM),104.956,353
+Tata Tigor EV,Cars,10.55,Automatic,5,213,Lithium-ion ,BEVC-AC001:11.5 hrs,BEVC-DC001:15V:0-80%:2 hrs,16.2,72 V 3phase AC induction motor,30  @ 4500r/min,105  @2500r/min
+Mahindra E2O P2 Automatic,Cars,7.16,Automatic,5,120,Lithium-ion ,11 to 16:9hrs,0 to 95%:1hr 30min,13.44,3 phase AC induction motor,19@3500r/min,70 @1050r/min
+Bajaj Chetak,Two-wheelers,1-1.15 ,Automatic,2,95,Lithium-ion,5 hours,NA,3,Brushless Hub Motor,4.08,16
+Revolt RV400,Two-wheelers,0.99-1.04 ,Automatic,2,156,Lithium-ion,15A:4.5 hours,NA,3.24,Electric motor,3,54
+Ather 450X,Two-wheelers,0.99-154 ,Automatic,2,85,Lithium-ion,4.18 hours,NA,2.61,Permanent Magnetic Synchronous Motor(PMSM),6,26
+TVS iQube Electric,Two-wheelers,1.15,Automatic,2,75,Lithium-ion,5 hours,NA,2.25,Electric motor,4.4,140
+PURE EV Pluto ,Two-wheelers,0.7,Automatic,2,80,Lithium-ion,4 hours,NA,1.8,Brushless Hub Motor,1.8,60
+PURE EV Pluto 7G,Two-wheelers,0.8,Automatic,2,105,Lithium-ion,4 hours,NA,2.5,Brushless Hub Motor,1.8,60
+Joy-eBike Monster,Two-wheelers,0.99,Automatic,2,75,Lithium-ion,4-4.5 hours,NA,1.85,Brushless Hub Motor,10 @8000rpm,13.8  @6000rpm
+Avon E bike,Two-wheelers,0.2,Automatic,2,40,Lithium-ion,4-8 hours,NA,0.432,Brushless Hub Motor,0.137,10.5@5500rpm
+Avon E scoot,Two-wheelers,0.41554,Automatic,2,65,Lithium-ion,6-8 hours,NA,0.96,Brushless Hub Motor,0.215,Not announced
+Hero Electric Optima LA,Two-wheelers,0.4177,Automatic,2,50,Lithium-ion,6-8 hours,NA,0.96,Brushless Hub Motor,0.25,Not announced
+Hero Electric Dash,Two-wheelers,0-0.6 ,Automatic/manual,2,60,Lithium-ion,4 hours,NA,1.344,Brushless Hub Motor,0.25,Not announced
+Okinawa Praise,Two-wheelers,0.69790-0.71500 ,Automatic,2,200,Lead-acid,6-8 hours,NA,0.54,Brushless Hub Motor,1,40
+Revolt RV300,Two-wheelers,0.85,Automatic,2,115,Lithium-ion,4.2 hours,NA,2.7,Electric motor,1.5,Not announced
