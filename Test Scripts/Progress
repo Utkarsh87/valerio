@@ -1,9 +1,10 @@
-To-do:
-Yet to consider the case where no charging station can be reached on current charge.
-
 Currently:
 Considers charging stations in the quadrant in which the destination lies considering the source is kept at the origin and 
 refines the choice of charging stations based on that. Then further decisions regarding the routing are made based on the 
 car-model and remaining charge in the battery. User made to reconsider the decision of visiting the charging station if the 
 vehicle can get to the destination without visiting one and the detour due to visiting the charging station is above a certain
 threshold. In other cases the algorithm decides.
+25/05:
+Considered the case where no charging station can be reached on current charge. Can be further optimized.
+
+To-do: suggest stations close to the destination point if initially the user declined the option of recharging on the way to the destination.
