@@ -56,3 +56,4 @@ If python3 is not available try the same command with python(worked for me :))
 * Use a better tool for plotting the retrieved map(again, GoogleMaps for instance) would lend much greater control over the zoom levels and the POV.
 * Charging station database has too few entries(which also perhaps reflects the ground reality of the EV scene in India currently)
 * Currently the data and the script both are focussed in the Delhi-NCR region but porting the same functionality for a Pan-India script should be very easy.
+* The range calculation script in use is far from representing a real-world scenario.
