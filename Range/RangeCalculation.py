@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 
-df = pd.read_csv('F:\\Valerio\\Scripts and Plots\\ValerioTrials\\Range\\VEHICLE_DATA.csv')
+df = pd.read_csv('F:\\Valerio\\Scripts and Plots\\ValerioTrials\\Range\\vehicle_data.csv')
 
 car_list = list(df['VEHICLE NAME'])
 range_list = list(df['DRIVING RANGE (IN KM)'])
