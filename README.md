@@ -3,24 +3,29 @@
 ### Run the script ###
 The script housing the main algorithm is **Plotting/route plotter.py**<br>
 A notebook version of the same is **Plotting/route plotter.ipynb**<br>
-For running the python file:<br>
 **NOTE:** Make sure you are in the **Plotting** folder.<br>
-In cell 2 change(in the 2 sys.path.insert calls):<br>
-F:\\Valerio\\Scripts and Plots\\ValerioTrials\\Geocoding -> PATH TO FOLDER/Geocoding<br>
-F:\\Valerio\\Scripts and Plots\\ValerioTrials\\Range -> PATH TO FOLDER/Range<br>
+```console
+foo@bar:~$ cd Plotting
+foo@bar:~$ python3 "route plotter.py"
+```
+If python3 is not available try the same command with python(worked for me :))
+* **Changes**
+  * F:\\Valerio\\Scripts and Plots\\ValerioTrials\\Geocoding -> PATH TO FOLDER/Geocoding<br>
+  * F:\\Valerio\\Scripts and Plots\\ValerioTrials\\Range -> PATH TO FOLDER/Range<br>
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### Necessary packages to be installed(preferably using pip/pip3) ###
-**Dependencies:**
-| Package | Version |
+### Dependencies ###
+**Python 3.6.8**<br>
+
+| Python Package | Version |
 | ------- | ------- |
 | smopy | 0.0.6 |
 | networkx | 2.4 |
 | pandas | 1.0.3 |
 | numpy | 1.18.1 |
-|matplotlib| 3.2.0 |
-| gdal |2040100|
+| matplotlib | 3.2.0 |
+| gdal | 2040100 |
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
