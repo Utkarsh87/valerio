@@ -13,6 +13,8 @@
 | matplotlib | 3.2.0 |
 | gdal | 2.4.1(2040100) |
 
+It is advised to freeze these libraries at the above mentioned versions to avoid running into issues related to version incompatibilities as few of the libraries used in this project are not very well maintained.<br>
+
 To install the dependencies(all except GDAL):
 ```console
 foo@bar:~/ValerioTrials$ pip install -r requirements.txt
@@ -22,6 +24,7 @@ To install GDAL, use the whl file included as instructed below:
 ```console
 foo@bar:~/ValerioTrials$ python -m pip install "path to folder/GDAL-2.4.1-cp36-cp36m-win_amd64.whl"
 ```
+(If python and pip don't work, try the same commands with python3 and pip3)
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -33,9 +36,9 @@ After cloning the repo :<br>
 
 ```console
 foo@bar:~/ValerioTrials$ cd Plotting
-foo@bar:~/ValerioTrials/Plotting$ python3 "route plotter.py"
+foo@bar:~/ValerioTrials/Plotting$ python "route plotter.py"
 ```
-If python3 is not available try the same command with python(worked for me :))
+(If the above command doesn't work, try the same with python3(worked for me :)))
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
