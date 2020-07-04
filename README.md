@@ -3,6 +3,7 @@
 ### Run the script ###
 The script housing the main algorithm is **Plotting/route plotter.py**<br>
 A notebook version of the same is **Plotting/route plotter.ipynb**<br>
+After cloning the repo :<br>
 **NOTE:** Make sure you are in the **Plotting** folder.<br>
 ```console
 foo@bar:~$ cd Plotting
