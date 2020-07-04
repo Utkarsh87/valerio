@@ -24,12 +24,6 @@ import io
 import os
 import zipfile
 import sys
-from pathlib import Path
-# insert at 1, 0 is the script path (or '' in REPL)
-cur = os.getcwd()
-parent = Path(cur).parent
-parent = str(parent)
-
 import platform
 if platform.system() == 'Windows':
     split_by = "\\"
@@ -38,6 +32,11 @@ else:
 # Note: Modern windows filesystems generally allow both / and \ in their paths and hence they can be used
 # interchangeably, but for the few systems that don't; the above check is necessary.
 
+cur = os.path.abspath(__file__) # get the path to this script
+parent = cur.rsplit(split_by, 1)[0] # get parent dir of script
+parent = parent.rsplit(split_by, 1)[0]
+
+# insert at 1, 0 is the script path (or '' in REPL)
 sys.path.insert(1, parent+split_by+"Geocoding")
 sys.path.insert(2, parent+split_by+"Range")
 
@@ -259,7 +258,8 @@ elif(pos1[1] > pos0[1] and pos1[0] < pos0[0]):
     possible_stations = fourth_quadrant(pos0, pos1)
     # print("fourth")
     
-print("Number of stations inside the bounding box: ", len(possible_stations))
+# Debug util
+# print("Number of stations inside the bounding box: ", len(possible_stations))
 
 
 
