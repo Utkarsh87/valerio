@@ -24,9 +24,22 @@ import io
 import os
 import zipfile
 import sys
+from pathlib import Path
 # insert at 1, 0 is the script path (or '' in REPL)
-sys.path.insert(1, 'F:\\Valerio\\Scripts and Plots\\ValerioTrials\\Geocoding')
-sys.path.insert(2, 'F:\\Valerio\\Scripts and Plots\\ValerioTrials\\Range')
+cur = os.getcwd()
+parent = Path(cur).parent
+parent = str(parent)
+
+import platform
+if platform.system() == 'Windows':
+    split_by = "\\"
+else:
+    split_by = "/"
+# Note: Modern windows filesystems generally allow both / and \ in their paths and hence they can be used
+# interchangeably, but for the few systems that don't; the above check is necessary.
+
+sys.path.insert(1, parent+split_by+"Geocoding")
+sys.path.insert(2, parent+split_by+"Range")
 
 # External libraries
     # For data wrangling
@@ -61,11 +74,11 @@ def unzip_file(name):
 
 
 # Unzip the road network file
-unzip_file('delhi_highway.zip')
+unzip_file(parent+split_by+"Plotting"+split_by+"delhi_highway.zip")
 
 
 # Read the shapefile into networkx object
-g = nx.read_shp('delhi_highway.shp')
+g = nx.read_shp(parent+split_by+"Plotting"+split_by+"delhi_highway.shp")
 
 
 # Graph might not be connected, this function will yield the largest connected subgraph.
@@ -148,7 +161,7 @@ def get_path_length(path):
 # ****************** CHARGING STATION DATABASE(CSV FILE) ******************
 
 # Get charging stations from the csv file
-df = pd.read_csv('ModifiedStations.csv')
+df = pd.read_csv(parent+split_by+"Plotting"+split_by+"ModifiedStations.csv")
 df['location'] = list(zip(df.LATITUDE, df.LONGITUDE))
 
 stations = []
@@ -357,7 +370,7 @@ def helper_StationClosestToSource():
             closestStationToSource = val
             sourceDistToStation = dist
     print("Charging Station closest to source point entered: ", closestStationToSource)
-    print("Distance of the closest charging station from source(in km): ", sourceDistToStation)
+    print("Distance of the closest charging station from source(in km): ", round(sourceDistToStation, 3))
     station_i = np.argmin(np.sum((nodes - closestStationToSource)**2, axis=1))
     
     length_path1 = nx.astar_path_length(sg, 
@@ -369,7 +382,7 @@ def helper_StationClosestToSource():
                 target = tuple(nodes[destination_i]),
                 weight = 'distance')
     
-    print(f'The vehicle will have to cover a distance of {length_path1+length_path2}km in total.')
+    print(f'The vehicle will have to cover a distance of {round(length_path1+length_path2, 3)}km in total.')
     # print("Station closest to source point: ", nodes[station_i])
     
     return station_i
@@ -447,7 +460,7 @@ elif(len(refined_possible_stations) > 0):
             
             threshold = 1 # in km
             if(length_path1+length_path2-dist > threshold and can_travel > length_path1): # make the user re-consider the decision to go for recharging based on detour distance.
-                print("The total distance that will have to be covered if you choose to go for a recharge is: ", length_path1+length_path2)
+                print("The total distance that will have to be covered if you choose to go for a recharge is: ", round(length_path1+length_path2, 3))
                 print(f'Hence the vehicle will have to cover an extra {round((length_path1+length_path2-dist), 3)}km due to this detour')
                 refuel = input("Do you still want to recharge your vehicle on the way to the destination ?(YES/NO)")
             
