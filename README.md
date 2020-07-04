@@ -5,14 +5,12 @@ The script housing the main algorithm is **Plotting/route plotter.py**<br>
 A notebook version of the same is **Plotting/route plotter.ipynb**<br>
 After cloning the repo :<br>
 **NOTE:** Make sure you are in the **Plotting** folder.<br>
+
 ```console
-foo@bar:~$ cd Plotting
-foo@bar:~$ python3 "route plotter.py"
+foo@bar:~/ValerioTrials$ cd Plotting
+foo@bar:~/ValerioTrials/Plotting$ python3 "route plotter.py"
 ```
 If python3 is not available try the same command with python(worked for me :))
-* **Changes**
-  * F:\\Valerio\\Scripts and Plots\\ValerioTrials\\Geocoding -> PATH TO FOLDER/Geocoding<br>
-  * F:\\Valerio\\Scripts and Plots\\ValerioTrials\\Range -> PATH TO FOLDER/Range<br>
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
