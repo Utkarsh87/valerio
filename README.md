@@ -1,18 +1,5 @@
 # ValerioTrials
 
-### Run the script ###
-The script housing the main algorithm is **Plotting/route plotter.py**<br>
-A notebook version of the same is **Plotting/route plotter.ipynb**<br>
-After cloning the repo :<br>
-**NOTE:** Make sure you are in the **Plotting** folder.<br>
-
-```console
-foo@bar:~/ValerioTrials$ cd Plotting
-foo@bar:~/ValerioTrials/Plotting$ python3 "route plotter.py"
-```
-If python3 is not available try the same command with python(worked for me :))
-
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### Dependencies ###
 **Python 3.6.8**<br>
@@ -24,7 +11,31 @@ If python3 is not available try the same command with python(worked for me :))
 | pandas | 1.0.3 |
 | numpy | 1.18.1 |
 | matplotlib | 3.2.0 |
-| gdal | 2040100 |
+| gdal | 2.4.1(2040100) |
+
+To install the dependencies(all except GDAL):
+```console
+foo@bar:~/ValerioTrials$ pip install -r requirements.txt
+```
+
+To install GDAL, use the whl file included as instructed below:
+```console
+foo@bar:~/ValerioTrials$ python -m pip install "path to folder/GDAL-2.4.1-cp36-cp36m-win_amd64.whl"
+```
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+### Run the script ###
+The script housing the main algorithm is **Plotting/route plotter.py**<br>
+A notebook version of the same is **Plotting/route plotter.ipynb**<br>
+After cloning the repo :<br>
+**NOTE:** Make sure you are in the **Plotting** folder.<br>
+
+```console
+foo@bar:~/ValerioTrials$ cd Plotting
+foo@bar:~/ValerioTrials/Plotting$ python3 "route plotter.py"
+```
+If python3 is not available try the same command with python(worked for me :))
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
