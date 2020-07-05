@@ -6,7 +6,7 @@
 
 | Python Package | Version |
 | ------- | ------- |
-| smopy | 0.0.6 |
+| smopy | 0.0.7 |
 | networkx | 2.4 |
 | pandas | 1.0.3 |
 | numpy | 1.18.1 |
