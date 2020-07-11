@@ -11,6 +11,22 @@ Author: Utkarsh Kumar Singh
 With help from: Prajwal Ranjan(Co-author), Sarthak Mahapatra(Charging station database).
 """
 
+"""
+Copyright 2020 Utkarsh Kumar Singh
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+"""
+
 # Credits:
 # Base code: https://ipython-books.github.io/147-creating-a-route-planner-for-a-road-network/
 # Data(.shp file): https://mapcruzin.com/free-delhi-country-city-place-gis-shapefiles.htm
