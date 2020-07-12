@@ -38,7 +38,7 @@ After cloning the repo :<br>
 foo@bar:~/ValerioTrials$ cd Plotting
 foo@bar:~/ValerioTrials/Plotting$ python "route plotter.py"
 ```
-(If the above command doesn't work, try the same with python3(worked for me :)))
+(If the above command doesn't work, try the same with python3
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
